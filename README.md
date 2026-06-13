@@ -60,6 +60,6 @@ See `.env.example` for all available variables.
 - [ ] Verify `korvi.no` domain in Resend and update `FROM_EMAIL`
 - [ ] Add real customer testimonials once available
 - [ ] Implement the AI-driven digital profile feature
-- [ ] Set up deployment (Railway / Fly.io / VPS)
+- [ ] Set up deployment on Vercel
 - [ ] Add Google Analytics or Plausible for traffic tracking
 - [ ] Consider a minimum order configurator on the pricing section
