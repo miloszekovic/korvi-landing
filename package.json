@@ -1,0 +1,26 @@
+{
+  "name": "korvi-landing",
+  "version": "1.0.0",
+  "private": true,
+  "main": "server.js",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/styles.css -o ./public/assets/tailwind.css --minify",
+    "icons": "node scripts/generate-icons.js",
+    "dev:css": "tailwindcss -i ./src/styles.css -o ./public/assets/tailwind.css --watch",
+    "dev": "KORVI_LIVERELOAD=1 node server.js",
+    "start": "npm run build:css && PORT=3005 node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "livereload": "^0.10.3",
+    "opentype.js": "^2.0.0",
+    "png-to-ico": "^3.0.1",
+    "postcss": "^8.5.6",
+    "sharp": "^0.35.1",
+    "tailwindcss": "^3.4.17"
+  }
+}

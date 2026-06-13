@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html lang="nb" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Korvi — Premium visittkort med QR og NFC</title>
+    <meta
+      name="description"
+      content="Premium visittkort i slitesterk plast med QR eller NFC — wow-effekt i møter, profesjonelt førsteinntrykk og digital profil eller valgfri lenke på sekunder."
+    />
+
+    <link rel="icon" href="/favicon.ico" sizes="48x48" />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="theme-color" content="#0A0A0D" />
+
+    <link rel="canonical" href="https://korvi.no/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Korvi" />
+    <meta property="og:title" content="Korvi — Premium visittkort med QR og NFC" />
+    <meta
+      property="og:description"
+      content="Premium visittkort i slitesterk plast med QR eller NFC — wow-effekt i møter, profesjonelt førsteinntrykk og digital profil eller valgfri lenke på sekunder."
+    />
+    <meta property="og:url" content="https://korvi.no/" />
+    <meta property="og:image" content="https://korvi.no/og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Korvi — premium visittkort med QR og NFC" />
+    <meta property="og:locale" content="nb_NO" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Korvi — Premium visittkort med QR og NFC" />
+    <meta
+      name="twitter:description"
+      content="Premium visittkort i slitesterk plast med QR eller NFC — wow-effekt i møter, profesjonelt førsteinntrykk og digital profil eller valgfri lenke på sekunder."
+    />
+    <meta name="twitter:image" content="https://korvi.no/og.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/assets/tailwind.css" />
+
+    <!-- Preload the LCP hero image so it starts downloading before app.js runs -->
+    <link
+      rel="preload"
+      as="image"
+      href="/images/78b6bd82-0efa-4402-83ea-950d6088d97a.webp"
+      fetchpriority="high"
+    />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://korvi.no/#organization",
+            "name": "Korvi",
+            "url": "https://korvi.no/",
+            "logo": "https://korvi.no/icon-512.png",
+            "image": "https://korvi.no/og.png",
+            "description": "Premium visittkort i slitesterk plast med QR eller NFC.",
+            "areaServed": "NO"
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://korvi.no/#website",
+            "url": "https://korvi.no/",
+            "name": "Korvi",
+            "inLanguage": "nb-NO",
+            "publisher": { "@id": "https://korvi.no/#organization" }
+          },
+          {
+            "@type": "Product",
+            "name": "Korvi premium visittkort",
+            "description": "Premium visittkort i slitesterk plast med QR eller NFC. Velg Classic, QR-kort eller NFC-kort, tilpasset din merkevare.",
+            "brand": { "@id": "https://korvi.no/#organization" },
+            "image": "https://korvi.no/og.png",
+            "offers": {
+              "@type": "AggregateOffer",
+              "priceCurrency": "NOK",
+              "lowPrice": "5490",
+              "offerCount": "3",
+              "availability": "https://schema.org/InStock",
+              "url": "https://korvi.no/#pris"
+            }
+          }
+        ]
+      }
+    </script>
+  </head>
+  <body class="bg-ink font-sans text-white antialiased">
+    <a href="#produkt" class="skip-link">Hopp til hovedinnhold</a>
+
+    <!-- ============ HEADER ============ -->
+    <header class="site-header fixed inset-x-0 top-0 z-50 h-14 w-full border-b border-white/[0.06] glass-nav md:h-16">
+      <div class="flex h-full items-center justify-between px-5 sm:px-8 lg:px-12">
+        <a href="#top" class="flex h-full min-w-0 shrink-0 items-center gap-2">
+          <img src="/images/logo.svg" alt="Korvi" class="h-4 w-auto md:h-5" />
+        </a>
+
+        <!-- Desktop: nav + divider + CTA, høyrejustert -->
+        <div class="hidden h-full items-stretch md:flex">
+          <nav class="flex h-full items-stretch" aria-label="Hovedmeny">
+            <a href="#produkt" class="nav-link flex h-full items-center px-2.5 text-sm font-medium text-white/65 transition hover:text-white lg:px-3.5">Produkt</a>
+            <a href="#hvorfor-korvi" class="nav-link flex h-full items-center px-2.5 text-sm font-medium text-white/65 transition hover:text-white lg:px-3.5">Hvorfor Korvi</a>
+            <a href="#digital-profil" class="nav-link flex h-full items-center px-2.5 text-sm font-medium text-white/65 transition hover:text-white lg:px-3.5">AI digital profil</a>
+            <a href="#materiale" class="nav-link flex h-full items-center px-2.5 text-sm font-medium text-white/65 transition hover:text-white lg:px-3.5">Materiale</a>
+            <a href="#design" class="nav-link flex h-full items-center px-2.5 text-sm font-medium text-white/65 transition hover:text-white lg:px-3.5">Design</a>
+            <a href="#garanti" class="nav-link flex h-full items-center px-2.5 text-sm font-medium text-white/65 transition hover:text-white lg:px-3.5">Garanti</a>
+            <a href="#pris" class="nav-link flex h-full items-center px-2.5 text-sm font-medium text-white/65 transition hover:text-white lg:px-3.5">Pris</a>
+            <a href="#faq" class="nav-link flex h-full items-center px-2.5 text-sm font-medium text-white/65 transition hover:text-white lg:px-3.5">FAQ</a>
+            <a href="#kontakt" class="nav-link flex h-full items-center px-2.5 text-sm font-medium text-white/65 transition hover:text-white lg:px-3.5">Kontakt</a>
+          </nav>
+          <div class="ml-2 flex items-center border-l border-white/[0.1] pl-4 lg:ml-3 lg:pl-5">
+            <a href="#kontakt" class="btn-primary px-5 py-2.5 text-[13px]">Bestill kort</a>
+          </div>
+        </div>
+
+        <!-- Mobile burger -->
+        <div class="flex h-full items-center md:hidden">
+          <button
+            type="button"
+            id="mobile-nav-toggle"
+            class="nav-toggle-btn group relative flex h-11 w-11 shrink-0 items-center justify-center rounded-2xl border border-white/[0.12] bg-gradient-to-b from-white/[0.09] to-white/[0.02] text-white shadow-[0_1px_0_rgba(255,255,255,0.06)_inset] transition-[box-shadow,transform,border-color] duration-300 ease-out hover:border-white/20 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brandBlue/45 focus-visible:ring-offset-2 focus-visible:ring-offset-[#0a0a0d] active:scale-[0.96]"
+            aria-controls="mobile-nav-panel"
+            aria-expanded="false"
+            aria-label="Åpne meny"
+          >
+            <span class="nav-toggle-bar nav-toggle-bar--1 pointer-events-none absolute left-1/2 top-[14px] block h-[2px] w-[22px] -translate-x-1/2 rounded-full bg-white"></span>
+            <span class="nav-toggle-bar nav-toggle-bar--2 pointer-events-none absolute left-1/2 top-1/2 block h-[2px] w-[22px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-white/95"></span>
+            <span class="nav-toggle-bar nav-toggle-bar--3 pointer-events-none absolute bottom-[14px] left-1/2 block h-[2px] w-[22px] -translate-x-1/2 rounded-full bg-white"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- ============ MOBILE NAV ============ -->
+    <div id="mobile-nav-backdrop" class="mobile-nav-backdrop fixed inset-0 z-40 md:hidden" aria-hidden="true"></div>
+
+    <div
+      id="mobile-nav-panel"
+      class="mobile-nav-drawer pointer-events-none fixed inset-y-0 right-0 z-[45] flex w-[min(20rem,88vw)] max-w-full flex-col border-l border-white/[0.08] bg-[rgba(7,7,8,0.94)] backdrop-blur-2xl backdrop-saturate-150 md:hidden"
+      inert
+      aria-hidden="true"
+      role="dialog"
+      aria-modal="false"
+      aria-labelledby="mobile-nav-title"
+    >
+      <div class="pointer-events-none absolute inset-0 bg-gradient-to-b from-brandBlue/[0.07] via-transparent to-brandPurple/[0.06]" aria-hidden="true"></div>
+      <div class="relative flex min-h-0 flex-1 flex-col pt-[calc(0.5rem+env(safe-area-inset-top,0px)+3.5rem)]">
+        <p id="mobile-nav-title" class="sr-only">Hovedmeny</p>
+        <nav class="flex min-h-0 flex-1 flex-col gap-0.5 overflow-y-auto px-5 pb-4 pt-2" aria-label="Hovedmeny mobil">
+          <a href="#produkt" class="nav-link mobile-nav-link rounded-xl px-4 py-3.5 text-[15px] font-semibold tracking-wide text-white/80 transition-colors duration-200 hover:bg-white/[0.06] hover:text-white">Produkt</a>
+          <a href="#hvorfor-korvi" class="nav-link mobile-nav-link rounded-xl px-4 py-3.5 text-[15px] font-semibold tracking-wide text-white/80 transition-colors duration-200 hover:bg-white/[0.06] hover:text-white">Hvorfor Korvi</a>
+          <a href="#digital-profil" class="nav-link mobile-nav-link rounded-xl px-4 py-3.5 text-[15px] font-semibold tracking-wide text-white/80 transition-colors duration-200 hover:bg-white/[0.06] hover:text-white">AI digital profil</a>
+          <a href="#materiale" class="nav-link mobile-nav-link rounded-xl px-4 py-3.5 text-[15px] font-semibold tracking-wide text-white/80 transition-colors duration-200 hover:bg-white/[0.06] hover:text-white">Materiale</a>
+          <a href="#design" class="nav-link mobile-nav-link rounded-xl px-4 py-3.5 text-[15px] font-semibold tracking-wide text-white/80 transition-colors duration-200 hover:bg-white/[0.06] hover:text-white">Design</a>
+          <a href="#garanti" class="nav-link mobile-nav-link rounded-xl px-4 py-3.5 text-[15px] font-semibold tracking-wide text-white/80 transition-colors duration-200 hover:bg-white/[0.06] hover:text-white">Garanti</a>
+          <a href="#pris" class="nav-link mobile-nav-link rounded-xl px-4 py-3.5 text-[15px] font-semibold tracking-wide text-white/80 transition-colors duration-200 hover:bg-white/[0.06] hover:text-white">Pris</a>
+          <a href="#faq" class="nav-link mobile-nav-link rounded-xl px-4 py-3.5 text-[15px] font-semibold tracking-wide text-white/80 transition-colors duration-200 hover:bg-white/[0.06] hover:text-white">FAQ</a>
+          <a href="#kontakt" class="nav-link mobile-nav-link rounded-xl px-4 py-3.5 text-[15px] font-semibold tracking-wide text-white/80 transition-colors duration-200 hover:bg-white/[0.06] hover:text-white">Kontakt</a>
+        </nav>
+        <div class="relative border-t border-white/[0.08] bg-black/20 px-5 pb-[max(1.25rem,env(safe-area-inset-bottom))] pt-4">
+          <a href="#kontakt" class="mobile-nav-cta btn-primary w-full py-3.5">Bestill kort</a>
+        </div>
+      </div>
+    </div>
+
+    <main id="top">
+      <!-- ============ HERO ============ -->
+      <section
+        class="hero relative flex min-h-[100svh] flex-col overflow-hidden"
+        data-hero
+        role="region"
+        aria-roledescription="carousel"
+        aria-label="Korvi produktbilder"
+      >
+        <!-- Slides (crossfade + Ken Burns). isolate keeps slide z-index below the scrim -->
+        <div class="absolute inset-0 isolate" aria-hidden="true">
+          <div class="hero-slide" data-hero-slide>
+            <img
+              src="/images/78b6bd82-0efa-4402-83ea-950d6088d97a.webp"
+              alt=""
+              class="hero-img h-full w-full object-cover object-center"
+              fetchpriority="high"
+              width="1536"
+              height="1024"
+              decoding="async"
+            />
+          </div>
+          <div class="hero-slide" data-hero-slide>
+            <img
+              src="/images/c99b1f76-6f62-4a9c-a59e-94f95c876d6e.webp"
+              alt=""
+              class="hero-img h-full w-full object-cover object-center"
+              loading="lazy"
+              width="1536"
+              height="1024"
+              decoding="async"
+            />
+          </div>
+          <div class="hero-slide" data-hero-slide>
+            <img
+              src="/images/hero-silver-qr.webp"
+              alt=""
+              class="hero-img h-full w-full object-cover object-center"
+              loading="lazy"
+              width="1536"
+              height="1024"
+              decoding="async"
+            />
+          </div>
+          <div class="hero-slide" data-hero-slide>
+            <img
+              src="/images/hero-transparent.webp"
+              alt=""
+              class="hero-img h-full w-full object-cover object-center"
+              loading="lazy"
+              width="1536"
+              height="1024"
+              decoding="async"
+            />
+          </div>
+        </div>
+
+        <!-- Scrims -->
+        <div class="hero-scrim pointer-events-none absolute inset-0" aria-hidden="true"></div>
+        <div class="pointer-events-none absolute inset-0 grid-lines opacity-[0.07]" aria-hidden="true"></div>
+
+        <!-- Content -->
+        <div class="container-k relative z-10 flex flex-1 flex-col justify-end pb-12 pt-24 sm:pb-9 md:pt-32">
+          <div class="hero-enter max-w-[60rem]">
+            <p class="eyebrow">
+              <span class="eyebrow-dot"></span>
+              Neste generasjon visittkort
+            </p>
+
+            <h1 class="mt-5 max-w-[22ch] text-balance font-display text-[2.5rem] font-bold leading-[1.04] tracking-[-0.035em] text-white drop-shadow-[0_4px_48px_rgba(0,0,0,0.5)] min-[400px]:text-[2.8rem] sm:mt-6 sm:text-[3.25rem] sm:leading-[1.0] md:text-[3.75rem] lg:text-[4.6rem] lg:leading-[0.98]">
+              Premium visittkort som skaper
+              <span class="bg-gradient-to-r from-[#8BD9FF] via-[#E8EEF8] to-[#C9B6FF] bg-clip-text pb-[0.08em] text-transparent">wow-effekt.</span>
+            </h1>
+
+            <p class="hero-copy mt-5 max-w-[36rem] text-balance text-[15px] leading-relaxed text-white/80 [text-shadow:0_2px_24px_rgba(0,0,0,0.45)] sm:mt-6 sm:text-lg sm:leading-8 lg:max-w-[46rem] lg:text-xl lg:leading-9">
+              Slitesterk <strong>premium plast</strong> med <strong>QR eller NFC</strong>. Ett tapp eller én scanning — og kunden ser akkurat det du vil: <strong>digital profil</strong>, nettside eller LinkedIn.
+            </p>
+
+            <div class="mt-7 flex flex-col gap-3 sm:mt-9 sm:gap-4 md:inline-grid md:grid-flow-col md:auto-cols-fr">
+              <a href="#kontakt" class="btn-primary btn-lg w-full">Bestill kort</a>
+              <a href="#produkt" class="btn-ghost btn-lg w-full">Se hvordan det fungerer</a>
+            </div>
+          </div>
+
+          <!-- Bottom strip: stats + carousel controls (hidden on mobile) -->
+          <div class="hero-enter hero-enter-delay hidden sm:block mt-10 border-t border-white/[0.14] pt-5 sm:mt-14 sm:pt-6">
+            <div class="flex items-end justify-between gap-4 md:gap-8">
+              <dl class="flex items-start">
+                <div class="pr-6 sm:pr-10">
+                  <dt class="text-[10px] leading-snug text-white/55 sm:text-sm">Per 100 kort</dt>
+                  <dd class="font-display text-[15px] font-semibold tracking-tight text-white drop-shadow-md sm:text-2xl">
+                    <span class="sm:hidden">5 490 kr</span>
+                    <span class="hidden sm:inline">Fra 5 490 NOK</span>
+                  </dd>
+                </div>
+                <div class="border-l border-white/[0.15] px-6 sm:px-10">
+                  <dt class="text-[10px] leading-snug text-white/55 sm:text-sm">Produksjon</dt>
+                  <dd class="font-display text-[15px] font-semibold tracking-tight text-white drop-shadow-md sm:text-2xl">3–5 dager</dd>
+                </div>
+                <div class="border-l border-white/[0.15] pl-6 sm:pl-10">
+                  <dt class="text-[10px] leading-snug text-white/55 sm:text-sm">Digital profil</dt>
+                  <dd class="font-display text-[15px] font-semibold tracking-tight text-white drop-shadow-md sm:text-2xl">AI-drevet</dd>
+                </div>
+              </dl>
+
+              <div class="flex shrink-0 items-center gap-3">
+                <div class="flex items-center gap-2" role="tablist" aria-label="Velg bilde">
+                  <button type="button" class="hero-seg" data-hero-dot="0" aria-label="Bilde 1"><span class="hero-seg-track"><span class="hero-seg-fill"></span></span></button>
+                  <button type="button" class="hero-seg" data-hero-dot="1" aria-label="Bilde 2"><span class="hero-seg-track"><span class="hero-seg-fill"></span></span></button>
+                  <button type="button" class="hero-seg" data-hero-dot="2" aria-label="Bilde 3"><span class="hero-seg-track"><span class="hero-seg-fill"></span></span></button>
+                  <button type="button" class="hero-seg" data-hero-dot="3" aria-label="Bilde 4"><span class="hero-seg-track"><span class="hero-seg-fill"></span></span></button>
+                </div>
+                <div class="hidden items-center gap-2 sm:flex">
+                  <button type="button" data-hero-prev class="hero-arrow" aria-label="Forrige bilde">
+                    <svg class="h-[1.125rem] w-[1.125rem]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M15 6l-6 6 6 6" stroke-linecap="round" stroke-linejoin="round" /></svg>
+                  </button>
+                  <button type="button" data-hero-next class="hero-arrow" aria-label="Neste bilde">
+                    <svg class="h-[1.125rem] w-[1.125rem]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M9 6l6 6-6 6" stroke-linecap="round" stroke-linejoin="round" /></svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ PRODUKT ============ -->
+      <section class="section" id="produkt">
+        <div class="container-k">
+          <div class="reveal max-w-2xl">
+            <p class="eyebrow"><span class="eyebrow-dot"></span>Produkt</p>
+            <h2 class="h2 mt-4">Velg løsningen som passer deg</h2>
+            <p class="lead mt-5">
+              Tiden med tynne papirkort som bøyes, slites og blir glemt er forbi. Korvi kombinerer et <strong>fysisk premiumkort</strong> med en <strong>moderne digital løsning</strong>.
+            </p>
+          </div>
+
+          <div class="breakout mt-10 sm:mt-14">
+            <div class="reveal grid gap-4 lg:grid-cols-3 lg:gap-5">
+            <article class="card-k group relative flex aspect-[856/540] flex-col overflow-hidden lg:aspect-square xl:aspect-[856/540]">
+              <div class="card-photo" style="background-image: url('/images/299050df-2302-4af2-a7c3-74c07b638f27.webp')" aria-hidden="true"></div>
+              <div class="relative flex items-start justify-between">
+                <span class="icon-chip text-brandMid">
+                  <svg class="h-[1.375rem] w-[1.375rem]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                    <rect x="3" y="6" width="18" height="13" rx="2"/>
+                    <path d="M7 11h7M7 14h4" stroke-linecap="round"/>
+                  </svg>
+                </span>
+                <span class="card-index">01</span>
+              </div>
+              <h3 class="relative mt-auto origin-left font-display text-xl font-semibold tracking-tight transition-transform duration-300 group-hover:scale-[1.04] sm:text-2xl">Classic</h3>
+              <p class="relative mt-3 text-[15px] leading-relaxed text-white/60 transition-colors duration-300 group-hover:text-white/90">
+                Et minimalistisk premiumkort i plast — kvalitet, holdbarhet og et eksklusivt uttrykk.
+              </p>
+            </article>
+
+            <article class="card-k group relative flex aspect-[856/540] flex-col overflow-hidden lg:aspect-square xl:aspect-[856/540]">
+              <div class="card-photo" style="background-image: url('/images/hero-silver-qr.webp')" aria-hidden="true"></div>
+              <div class="relative flex items-start justify-between">
+                <span class="icon-chip text-brandMid">
+                  <svg class="h-[1.375rem] w-[1.375rem]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                    <rect x="4" y="4" width="6" height="6"/>
+                    <rect x="14" y="4" width="6" height="6"/>
+                    <rect x="4" y="14" width="6" height="6"/>
+                    <path d="M14 14h3v3h3v3h-6v-6z"/>
+                  </svg>
+                </span>
+                <span class="card-index">02</span>
+              </div>
+              <h3 class="relative mt-auto origin-left font-display text-xl font-semibold tracking-tight transition-transform duration-300 group-hover:scale-[1.04] sm:text-2xl">QR-kort</h3>
+              <p class="relative mt-3 text-[15px] leading-relaxed text-white/60 transition-colors duration-300 group-hover:text-white/90">
+                Kunden scanner kortet og åpner nettside, booking eller LinkedIn umiddelbart.
+              </p>
+            </article>
+
+            <article class="card-k group relative flex aspect-[856/540] flex-col overflow-hidden lg:aspect-square xl:aspect-[856/540]">
+              <div class="card-photo" style="background-image: url('/images/c99b1f76-6f62-4a9c-a59e-94f95c876d6e.webp')" aria-hidden="true"></div>
+              <div class="relative flex items-start justify-between">
+                <span class="icon-chip text-brandMid">
+                  <svg class="h-[1.375rem] w-[1.375rem]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                    <path d="M3.9 15a8.1 8.1 0 018.1-8.1M8.3 15a3.7 3.7 0 013.7-3.7M15.7 15a3.7 3.7 0 00-3.7-3.7M20.1 15A8.1 8.1 0 0012 6.9" stroke-linecap="round"/>
+                    <circle cx="12" cy="17.2" r="1.8" fill="currentColor" stroke="none"/>
+                  </svg>
+                </span>
+                <span class="card-index">03</span>
+              </div>
+              <h3 class="relative mt-auto origin-left font-display text-xl font-semibold tracking-tight transition-transform duration-300 group-hover:scale-[1.04] sm:text-2xl">NFC-kort</h3>
+              <p class="relative mt-3 text-[15px] leading-relaxed text-white/60 transition-colors duration-300 group-hover:text-white/90">
+                Ett tapp mot telefonen åpner din profil eller valgfri lenke direkte.
+              </p>
+            </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ HVORFOR KORVI ============ -->
+      <section class="section" id="hvorfor-korvi">
+        <div class="container-k">
+          <div class="grid gap-10 lg:grid-cols-[1fr_1.15fr] lg:gap-16">
+            <div class="reveal">
+              <p class="eyebrow"><span class="eyebrow-dot"></span>Hvorfor Korvi</p>
+              <h2 class="h2 mt-4">Papirkort blir glemt.<br />Korvi blir husket.</h2>
+              <p class="lead mt-5">
+                Når du gir fra deg et Korvi-kort, skaper det umiddelbart en <strong>premium følelse</strong> og et profesjonelt <strong>wow-øyeblikk</strong> i møter, networking og kundedialog.
+              </p>
+
+              <div class="mt-8 flex flex-wrap gap-2">
+                <span class="chip">Advokater</span>
+                <span class="chip">Meglere</span>
+                <span class="chip">Konsulenter</span>
+                <span class="chip">Gründere</span>
+                <span class="chip">IT-profesjonelle</span>
+                <span class="chip">Frilansere</span>
+                <span class="chip">Regnskapsførere</span>
+                <span class="chip">Arkitekter</span>
+                <span class="chip">Eiendomsutviklere</span>
+                <span class="chip">Selgere</span>
+                <span class="chip">Rådgivere</span>
+                <span class="chip">Coacher</span>
+                <span class="chip">Fotografer</span>
+                <span class="chip border-dashed border-white/25 bg-transparent text-white/55">og mange flere …</span>
+              </div>
+            </div>
+
+            <div class="reveal grid gap-4 sm:grid-cols-2">
+              <div class="card-k">
+                <span class="icon-chip text-brandMid">
+                  <svg class="h-[1.375rem] w-[1.375rem]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                    <rect x="3" y="6" width="18" height="13" rx="2"/>
+                    <path d="M3 10h18" stroke-linecap="round"/>
+                  </svg>
+                </span>
+                <h3 class="mt-5 font-display text-lg font-semibold tracking-tight">Bankkort-kvalitet</h3>
+                <p class="mt-2 text-sm leading-relaxed text-white/60">Premium PVC med samme tykkelse og størrelse som moderne bankkort.</p>
+              </div>
+              <div class="card-k">
+                <span class="icon-chip text-brandMid">
+                  <svg class="h-[1.375rem] w-[1.375rem]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                    <path d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-2M13 9h8v6h-8a3 3 0 010-6z" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </span>
+                <h3 class="mt-5 font-display text-lg font-semibold tracking-tight">Passer overalt</h3>
+                <p class="mt-2 text-sm leading-relaxed text-white/60">Perfekt i alle moderne wallets, card holders og lommebøker.</p>
+              </div>
+              <div class="card-k">
+                <span class="icon-chip text-brandMid">
+                  <svg class="h-[1.375rem] w-[1.375rem]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                    <path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8L12 3zM19 16l.9 2.1L22 19l-2.1.9L19 22l-.9-2.1L16 19l2.1-.9L19 16z" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </span>
+                <h3 class="mt-5 font-display text-lg font-semibold tracking-tight">Wow-øyeblikk</h3>
+                <p class="mt-2 text-sm leading-relaxed text-white/60">Et førsteinntrykk kunden faktisk husker — og snakker om.</p>
+              </div>
+              <div class="card-k">
+                <span class="icon-chip text-brandMid">
+                  <svg class="h-[1.375rem] w-[1.375rem]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                    <path d="M12 3l7 4v5c0 4.4-3 8.4-7 9.5C8 20.4 5 16.4 5 12V7l7-4z" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M9.5 12l1.8 1.8L15 10" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </span>
+                <h3 class="mt-5 font-display text-lg font-semibold tracking-tight">Bygget for å vare</h3>
+                <p class="mt-2 text-sm leading-relaxed text-white/60">Bøyes ikke, slites ikke og havner ikke i søpla etter møtet.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ DIGITAL PROFIL ============ -->
+      <section class="section" id="digital-profil">
+        <div class="container-k">
+          <div class="grid gap-10 lg:grid-cols-2 lg:items-center lg:gap-16">
+            <div class="reveal order-2 lg:order-1">
+              <div class="gallery md:grid md:grid-cols-2 md:gap-4" data-gallery>
+                <div class="img-frame md:col-span-2">
+                  <img
+                    src="/images/2403008d-381a-4260-b883-1a0879024432.webp"
+                    alt="NFC-kort som åpner digital profil på telefonen"
+                    class="aspect-[4/3] w-full object-cover object-center md:aspect-[16/10]"
+                    loading="lazy"
+                    width="1536"
+                    height="1024"
+                  />
+                </div>
+                <div class="img-frame">
+                  <img
+                    src="/images/2.webp"
+                    alt="QR-kort og digital profil"
+                    class="aspect-[4/3] w-full object-cover object-center md:aspect-[4/5]"
+                    loading="lazy"
+                    width="1536"
+                    height="1024"
+                  />
+                </div>
+                <div class="img-frame">
+                  <img
+                    src="/images/98b34d12-f115-443a-aaea-5be87d144988.webp"
+                    alt="NFC-kort tappes mot telefon"
+                    class="aspect-[4/3] w-full object-cover object-center md:aspect-[4/5]"
+                    loading="lazy"
+                    width="1000"
+                    height="1000"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="reveal order-1 lg:order-2">
+              <p class="eyebrow"><span class="eyebrow-dot"></span>AI-drevet digital profil</p>
+              <h2 class="h2 mt-4">Én scanning.<br />All informasjon.</h2>
+              <p class="lead mt-5">Bak hvert Korvi-kort <strong>velger du selv</strong> hva som åpnes:</p>
+
+              <ul class="mt-8 grid gap-x-6 gap-y-4 sm:grid-cols-2">
+                <li class="list-row">
+                  <span class="list-check" aria-hidden="true"></span>
+                  AI-drevet digital profil på korvi.no
+                </li>
+                <li class="list-row">
+                  <span class="list-check" aria-hidden="true"></span>
+                  Din egen nettside
+                </li>
+                <li class="list-row">
+                  <span class="list-check" aria-hidden="true"></span>
+                  LinkedIn
+                </li>
+                <li class="list-row">
+                  <span class="list-check" aria-hidden="true"></span>
+                  Booking-side
+                </li>
+                <li class="list-row">
+                  <span class="list-check" aria-hidden="true"></span>
+                  Portefølje
+                </li>
+                <li class="list-row">
+                  <span class="list-check" aria-hidden="true"></span>
+                  Valgfri ekstern lenke
+                </li>
+              </ul>
+
+              <div class="mt-8 rounded-2xl border border-white/[0.1] bg-gradient-to-br from-brandBlue/[0.08] via-white/[0.03] to-brandPurple/[0.08] p-5 sm:p-6">
+                <div class="flex items-start gap-4">
+                  <span class="icon-chip text-brandMid">
+                    <svg class="h-[1.375rem] w-[1.375rem]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                      <rect x="7" y="7" width="10" height="10" rx="1.5"/>
+                      <rect x="10.2" y="10.2" width="3.6" height="3.6" rx="0.75" fill="currentColor" stroke="none"/>
+                      <path d="M9.5 3v4M14.5 3v4M9.5 17v4M14.5 17v4M3 9.5h4M3 14.5h4M17 9.5h4M17 14.5h4" stroke-linecap="round"/>
+                    </svg>
+                  </span>
+                  <p class="text-[15px] leading-relaxed text-white/70">
+                    <strong class="font-semibold text-white">AI bygger profilen for deg.</strong>
+                    Design, tekst og oppsett genereres automatisk og tilpasses din merkevare — ferdig på få minutter, alltid optimalisert for mobil og førsteinntrykk.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ MATERIALE ============ -->
+      <section class="section" id="materiale">
+        <div class="container-k">
+          <div class="grid gap-10 lg:grid-cols-2 lg:items-center lg:gap-16">
+            <div class="reveal">
+              <p class="eyebrow"><span class="eyebrow-dot"></span>Premium materiale</p>
+              <h2 class="h2 mt-4">Samme kvalitet som moderne bankkort</h2>
+              <p class="lead mt-5">
+                Kortene produseres i slitesterk premium PVC-plast med <strong>samme størrelse og tykkelse som moderne kredittkort</strong>.
+              </p>
+
+              <p class="mt-8 font-display text-3xl font-semibold tracking-tight text-white sm:text-4xl">
+                85.60 <span class="text-white/35">×</span> 53.98 <span class="text-lg text-white/45">mm</span>
+              </p>
+              <p class="mt-2 text-sm text-white/40">ISO/IEC 7810 ID-1 — samme standard som kredittkort</p>
+
+              <div class="mt-8 grid grid-cols-2 gap-2.5 sm:gap-3">
+                <span class="finish-chip">Matt finish</span>
+                <span class="finish-chip">Glossy finish</span>
+                <span class="finish-chip">Spot UV / lakk</span>
+                <span class="finish-chip">Metallic detaljer</span>
+                <span class="finish-chip">Transparent plast</span>
+                <span class="finish-chip">Sort premium plast</span>
+              </div>
+
+              <p class="mt-8 text-[15px] text-white/55">Bygget for å vare — og for å imponere.</p>
+            </div>
+
+            <div class="reveal">
+              <div class="gallery md:grid md:grid-cols-2 md:gap-4" data-gallery>
+                <div class="img-frame md:col-span-2">
+                  <img
+                    src="/images/hero-transparent.webp"
+                    alt="Transparent premiumkort"
+                    class="aspect-[4/3] w-full object-cover object-center md:aspect-[16/10]"
+                    loading="lazy"
+                    width="1536"
+                    height="1024"
+                  />
+                </div>
+                <div class="img-frame">
+                  <img
+                    src="/images/luxury-copper-metal-business-card-54005-2.webp"
+                    alt="Transparent kort med metallic detaljer"
+                    class="aspect-[4/3] w-full object-cover object-center md:aspect-square"
+                    loading="lazy"
+                    width="1124"
+                    height="749"
+                  />
+                </div>
+                <div class="img-frame">
+                  <img
+                    src="/images/299050df-2302-4af2-a7c3-74c07b638f27.webp"
+                    alt="Sort premiumkort i hånd"
+                    class="aspect-[4/3] w-full object-cover object-center md:aspect-square"
+                    loading="lazy"
+                    width="1024"
+                    height="683"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ DESIGN ============ -->
+      <section class="section" id="design">
+        <div class="container-k">
+          <div class="grid gap-10 lg:grid-cols-2 lg:items-center lg:gap-16">
+            <div class="reveal order-2 lg:order-1">
+              <div class="gallery md:grid md:gap-4" data-gallery>
+                <div class="img-frame">
+                  <img
+                    src="/images/bb7a2cb6-2f90-459c-88f0-f12060c6887b.webp"
+                    alt="Forskjellige kortstiler og design"
+                    class="aspect-[4/3] w-full object-cover object-center md:aspect-[16/10]"
+                    loading="lazy"
+                    width="1536"
+                    height="1024"
+                  />
+                </div>
+                <div class="img-frame">
+                  <img
+                    src="/images/d3f7873c-5803-4f92-898a-ba6dcd4fe279.webp"
+                    alt="Sorte premiumkort i tre varianter"
+                    class="aspect-[4/3] w-full object-cover object-center md:aspect-[21/9]"
+                    loading="lazy"
+                    width="1536"
+                    height="1024"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="reveal order-1 lg:order-2">
+              <p class="eyebrow"><span class="eyebrow-dot"></span>Design</p>
+              <h2 class="h2 mt-4">Skreddersydd til din merkevare</h2>
+              <p class="lead mt-5">
+                Send oss ferdig design, logo, skisse eller bare en idé. Vi tilpasser kortet slik at det føles som en <strong>naturlig del av merkevaren din</strong>.
+              </p>
+
+              <ol class="mt-10 grid gap-7">
+                <li class="step-row">
+                  <span class="step-num">01</span>
+                  <div>
+                    <h3 class="font-display text-lg font-semibold tracking-tight">Send design eller idé</h3>
+                    <p class="mt-1.5 text-sm leading-relaxed text-white/60">Ferdig design, logo, skisse — eller bare en tanke.</p>
+                  </div>
+                </li>
+                <li class="step-row">
+                  <span class="step-num">02</span>
+                  <div>
+                    <h3 class="font-display text-lg font-semibold tracking-tight">Vi tilpasser</h3>
+                    <p class="mt-1.5 text-sm leading-relaxed text-white/60">Kortet formes slik at det matcher merkevaren din perfekt.</p>
+                  </div>
+                </li>
+                <li class="step-row">
+                  <span class="step-num">03</span>
+                  <div>
+                    <h3 class="font-display text-lg font-semibold tracking-tight">Du godkjenner</h3>
+                    <p class="mt-1.5 text-sm leading-relaxed text-white/60">Ingenting produseres før du er 100 % fornøyd.</p>
+                  </div>
+                </li>
+                <li class="step-row">
+                  <span class="step-num">04</span>
+                  <div>
+                    <h3 class="font-display text-lg font-semibold tracking-tight">Produksjon på 3–5 dager</h3>
+                    <p class="mt-1.5 text-sm leading-relaxed text-white/60">Kortene leveres klare til å imponere.</p>
+                  </div>
+                </li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ GARANTI ============ -->
+      <section class="section" id="garanti">
+        <div class="container-k">
+          <div class="reveal max-w-2xl">
+            <p class="eyebrow"><span class="eyebrow-dot"></span>Trygt å bestille</p>
+            <h2 class="h2 mt-4">Du er i trygge hender.</h2>
+            <p class="lead mt-5">
+              Vi hjelper deg hele veien — fra første forespørsel til ferdige kort i hånden. Ingenting produseres uten at du er 100&nbsp;% fornøyd med resultatet.
+            </p>
+          </div>
+
+          <div class="reveal mt-10 sm:mt-14 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            <div class="card-k">
+              <span class="icon-chip text-brandMid">
+                <svg class="h-[1.375rem] w-[1.375rem]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                  <path d="M12 3l7 4v5c0 4.4-3 8.4-7 9.5C8 20.4 5 16.4 5 12V7l7-4z" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M9.5 12l1.8 1.8L15 10" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>
+              <h3 class="mt-5 font-display text-lg font-semibold tracking-tight">Godkjenning før produksjon</h3>
+              <p class="mt-2 text-sm leading-relaxed text-white/60">Du ser og godkjenner designet før vi trykker ett eneste kort. Ingen overraskelser.</p>
+            </div>
+            <div class="card-k">
+              <span class="icon-chip text-brandMid">
+                <svg class="h-[1.375rem] w-[1.375rem]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                  <path d="M12 22c5.5 0 10-4.5 10-10S17.5 2 12 2 2 6.5 2 12s4.5 10 10 10z" stroke-linecap="round"/>
+                  <path d="M8 12l2.5 2.5L16 9" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>
+              <h3 class="mt-5 font-display text-lg font-semibold tracking-tight">Vi fikser det — gratis</h3>
+              <p class="mt-2 text-sm leading-relaxed text-white/60">Skulle noe ikke stemme med bestillingen, ordner vi det uten ekstra kostnad.</p>
+            </div>
+            <div class="card-k">
+              <span class="icon-chip text-brandMid">
+                <svg class="h-[1.375rem] w-[1.375rem]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                  <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>
+              <h3 class="mt-5 font-display text-lg font-semibold tracking-tight">Rask levering — 3–5 dager</h3>
+              <p class="mt-2 text-sm leading-relaxed text-white/60">Produksjon og levering over hele Norge på rekordtid.</p>
+            </div>
+            <div class="card-k">
+              <span class="icon-chip text-brandMid">
+                <svg class="h-[1.375rem] w-[1.375rem]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                  <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2" stroke-linecap="round" stroke-linejoin="round"/>
+                  <circle cx="12" cy="7" r="4" stroke-linecap="round"/>
+                </svg>
+              </span>
+              <h3 class="mt-5 font-display text-lg font-semibold tracking-tight">Personlig service</h3>
+              <p class="mt-2 text-sm leading-relaxed text-white/60">Du snakker direkte med oss — ikke et callcenter. Rask respons, norsk support.</p>
+            </div>
+            <div class="card-k">
+              <span class="icon-chip text-brandMid">
+                <svg class="h-[1.375rem] w-[1.375rem]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                  <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z" stroke-linecap="round" stroke-linejoin="round"/>
+                  <circle cx="12" cy="9" r="2.5"/>
+                </svg>
+              </span>
+              <h3 class="mt-5 font-display text-lg font-semibold tracking-tight">Norsk leverandør</h3>
+              <p class="mt-2 text-sm leading-relaxed text-white/60">Basert i Norge — norsk kundeservice, rask frakt og enkel kommunikasjon.</p>
+            </div>
+            <div class="card-k">
+              <span class="icon-chip text-brandMid">
+                <svg class="h-[1.375rem] w-[1.375rem]" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                  <path d="M11 4H4a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7" stroke-linecap="round" stroke-linejoin="round"/>
+                  <path d="M18.5 2.5a2.12 2.12 0 013 3L12 15l-4 1 1-4 9.5-9.5z" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </span>
+              <h3 class="mt-5 font-display text-lg font-semibold tracking-tight">Endre lenken når som helst</h3>
+              <p class="mt-2 text-sm leading-relaxed text-white/60">For QR- og NFC-kort kan du oppdatere destinasjonslenken etter at kortene er levert.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ FAQ ============ -->
+      <section class="section" id="faq">
+        <div class="container-k">
+          <div class="reveal max-w-2xl">
+            <p class="eyebrow"><span class="eyebrow-dot"></span>Spørsmål og svar</p>
+            <h2 class="h2 mt-4">Vanlige spørsmål</h2>
+          </div>
+
+          <div class="reveal mt-10 sm:mt-14">
+            <dl class="faq-list">
+              <div class="faq-item">
+                <dt>
+                  <button class="faq-btn" type="button" aria-expanded="false">
+                    <span>Hva er NFC, og trenger kunden en app?</span>
+                    <svg class="faq-icon h-5 w-5 shrink-0 text-white/40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path class="faq-icon-plus" d="M12 5v14M5 12h14" stroke-linecap="round"/><path class="faq-icon-minus" d="M5 12h14" stroke-linecap="round"/></svg>
+                  </button>
+                </dt>
+                <dd class="faq-panel" hidden>
+                  <p>NFC (Near Field Communication) er en trådløs teknologi — akkurat som å betale med telefonen. Kunden holder telefonen nær kortet, og profilen din åpnes umiddelbart. Ingen app nødvendig; det fungerer direkte på iPhone (iOS&nbsp;13+) og alle moderne Android-telefoner med NFC aktivert.</p>
+                </dd>
+              </div>
+
+              <div class="faq-item">
+                <dt>
+                  <button class="faq-btn" type="button" aria-expanded="false">
+                    <span>Hva er minimum bestillingsmengde?</span>
+                    <svg class="faq-icon h-5 w-5 shrink-0 text-white/40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path class="faq-icon-plus" d="M12 5v14M5 12h14" stroke-linecap="round"/><path class="faq-icon-minus" d="M5 12h14" stroke-linecap="round"/></svg>
+                  </button>
+                </dt>
+                <dd class="faq-panel" hidden>
+                  <p>Minimum bestillingsmengde er 100 kort per design. Trenger du kort til et større team eller til flere avdelinger, ta gjerne kontakt for et skreddersydd tilbud.</p>
+                </dd>
+              </div>
+
+              <div class="faq-item">
+                <dt>
+                  <button class="faq-btn" type="button" aria-expanded="false">
+                    <span>Kan jeg endre lenken etter at kortene er levert?</span>
+                    <svg class="faq-icon h-5 w-5 shrink-0 text-white/40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path class="faq-icon-plus" d="M12 5v14M5 12h14" stroke-linecap="round"/><path class="faq-icon-minus" d="M5 12h14" stroke-linecap="round"/></svg>
+                  </button>
+                </dt>
+                <dd class="faq-panel" hidden>
+                  <p>Ja! For QR- og NFC-kort kan du oppdatere destinasjonslenken når som helst — uten å bestille nye kort. Bytter du jobb, oppdaterer du bare lenken, og alle eksisterende kort peker automatisk til den nye adressen.</p>
+                </dd>
+              </div>
+
+              <div class="faq-item">
+                <dt>
+                  <button class="faq-btn" type="button" aria-expanded="false">
+                    <span>Hva skjer etter at jeg sender forespørselen?</span>
+                    <svg class="faq-icon h-5 w-5 shrink-0 text-white/40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path class="faq-icon-plus" d="M12 5v14M5 12h14" stroke-linecap="round"/><path class="faq-icon-minus" d="M5 12h14" stroke-linecap="round"/></svg>
+                  </button>
+                </dt>
+                <dd class="faq-panel" hidden>
+                  <p>Vi tar kontakt innen én arbeidsdag for å diskutere design, finish og detaljer. Deretter sender vi deg et korrekturutkast for godkjenning. Ingenting produseres uten at du er 100&nbsp;% fornøyd.</p>
+                </dd>
+              </div>
+
+              <div class="faq-item">
+                <dt>
+                  <button class="faq-btn" type="button" aria-expanded="false">
+                    <span>Hjelper dere med designet?</span>
+                    <svg class="faq-icon h-5 w-5 shrink-0 text-white/40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path class="faq-icon-plus" d="M12 5v14M5 12h14" stroke-linecap="round"/><path class="faq-icon-minus" d="M5 12h14" stroke-linecap="round"/></svg>
+                  </button>
+                </dt>
+                <dd class="faq-panel" hidden>
+                  <p>Absolutt. Send oss ferdig design, logo, skisse — eller bare en idé og fargene dine. Vi tilpasser og optimaliserer kortet slik at det matcher merkevaren din perfekt. Designhjelpen er inkludert i prisen.</p>
+                </dd>
+              </div>
+
+              <div class="faq-item">
+                <dt>
+                  <button class="faq-btn" type="button" aria-expanded="false">
+                    <span>Leverer dere over hele Norge?</span>
+                    <svg class="faq-icon h-5 w-5 shrink-0 text-white/40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path class="faq-icon-plus" d="M12 5v14M5 12h14" stroke-linecap="round"/><path class="faq-icon-minus" d="M5 12h14" stroke-linecap="round"/></svg>
+                  </button>
+                </dt>
+                <dd class="faq-panel" hidden>
+                  <p>Ja, vi leverer over hele Norge. Fraktkostnad og leveringstid avklares i tilbudet.</p>
+                </dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ PRIS ============ -->
+      <section class="section" id="pris">
+        <div class="container-k">
+          <div class="reveal price-panel overflow-hidden rounded-[1.75rem] border border-white/[0.09]">
+            <div class="grid lg:grid-cols-2">
+              <div class="p-7 sm:p-12 lg:p-14">
+                <div class="flex flex-col items-start gap-4 sm:flex-row sm:items-center sm:gap-8">
+                  <p class="eyebrow"><span class="eyebrow-dot"></span>Pris</p>
+
+                  <div class="flex w-full max-w-full rounded-full border border-white/[0.1] bg-white/[0.04] p-1 sm:inline-flex sm:w-auto" role="tablist" aria-label="Velg korttype">
+                    <button type="button" class="price-tab is-active" data-price-tab="classic" role="tab" aria-selected="true">
+                      <svg class="h-4 w-4 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                        <rect x="3" y="6" width="18" height="13" rx="2"/>
+                        <path d="M7 11h7M7 14h4" stroke-linecap="round"/>
+                      </svg>
+                      Classic
+                    </button>
+                    <button type="button" class="price-tab" data-price-tab="qr" role="tab" aria-selected="false">
+                      <svg class="h-4 w-4 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                        <rect x="4" y="4" width="6" height="6"/>
+                        <rect x="14" y="4" width="6" height="6"/>
+                        <rect x="4" y="14" width="6" height="6"/>
+                        <path d="M14 14h3v3h3v3h-6v-6z"/>
+                      </svg>
+                      QR-kort
+                    </button>
+                    <button type="button" class="price-tab" data-price-tab="nfc" role="tab" aria-selected="false">
+                      <svg class="h-4 w-4 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+                        <path d="M3.9 15a8.1 8.1 0 018.1-8.1M8.3 15a3.7 3.7 0 013.7-3.7M15.7 15a3.7 3.7 0 00-3.7-3.7M20.1 15A8.1 8.1 0 0012 6.9" stroke-linecap="round"/>
+                        <circle cx="12" cy="17.2" r="1.8" fill="currentColor" stroke="none"/>
+                      </svg>
+                      NFC-kort
+                    </button>
+                  </div>
+                </div>
+
+                <p class="mt-6 font-display text-5xl font-bold tracking-[-0.03em] text-white sm:text-6xl">
+                  <span class="price-amount" data-price-amount>5490</span><span class="ml-2 text-xl font-medium text-white/45 sm:text-2xl">NOK</span>
+                </p>
+                <p class="mt-2 text-[15px] text-white/55">fra / 100 kort — <span class="font-semibold text-white/85" data-price-per>under 55 kr per kort</span></p>
+                <p class="mt-4 max-w-md text-[15px] leading-relaxed text-white/60" data-price-desc>Minimalistisk premiumkort i plast — uten chip.</p>
+                <p class="lead mt-5 max-w-md">
+                  <strong>Premium plast er alltid inkludert.</strong> Endelig pris avhenger av finish og ønsket løsning.
+                </p>
+                <a href="#kontakt" class="btn-primary mt-9 px-7 py-3.5">Få et uforpliktende tilbud</a>
+              </div>
+
+              <div class="border-t border-white/[0.08] bg-white/[0.02] p-7 sm:p-12 lg:border-l lg:border-t-0 lg:p-14">
+                <p class="text-xs font-semibold uppercase tracking-[0.2em] text-white/45">Alltid inkludert</p>
+                <ul class="mt-6 grid gap-4">
+                  <li class="list-row"><span class="list-check" aria-hidden="true"></span>Premium PVC-plast i bankkort-kvalitet</li>
+                  <li class="list-row"><span class="list-check" aria-hidden="true"></span>Rask produksjon — 3–5 dager</li>
+                  <li class="list-row"><span class="list-check" aria-hidden="true"></span>Design-tilpasning til din merkevare</li>
+                  <li class="list-row"><span class="list-check" aria-hidden="true"></span>Godkjenning før produksjon</li>
+                </ul>
+
+                <div data-price-extra class="mt-7 border-t border-white/[0.08] pt-6">
+                  <p data-price-extra-title class="text-xs font-semibold uppercase tracking-[0.2em] text-brandMid">Med Classic</p>
+                  <ul data-price-extra-list class="mt-5 grid gap-4"></ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ============ KONTAKT ============ -->
+      <section class="section" id="kontakt">
+        <div class="container-k">
+          <div class="reveal kontakt-band relative overflow-hidden rounded-[1.75rem]">
+            <div class="relative z-10 grid gap-9 p-6 sm:p-10 lg:grid-cols-2 lg:items-center lg:gap-14 lg:p-14">
+              <div>
+                <p class="eyebrow"><span class="eyebrow-dot"></span>Kontakt</p>
+                <h2 class="h2 mt-4">Klar for å skille deg ut?</h2>
+                <p class="lead mt-5 max-w-md">
+                  Send en kort forespørsel, så tar vi det derfra.
+                </p>
+                <ul class="mt-7 grid gap-3.5">
+                  <li class="list-row"><span class="list-check shrink-0" aria-hidden="true"></span>Helt uforpliktende</li>
+                  <li class="list-row"><span class="list-check shrink-0" aria-hidden="true"></span>Svar innen én arbeidsdag</li>
+                  <li class="list-row"><span class="list-check shrink-0" aria-hidden="true"></span>Ingen produksjon uten din godkjenning</li>
+                </ul>
+                <p class="mt-6 text-sm" style="color:rgba(10,10,13,0.6)">
+                  Foretrekker du å ringe?
+                  <a href="tel:+4741339729" class="font-semibold" style="color:#0a0a0d">+47 41 33 97 29</a>
+                </p>
+              </div>
+
+              <form id="contactForm" class="grid gap-4" novalidate>
+                <div class="grid gap-4 sm:grid-cols-2">
+                  <div>
+                    <label for="cf-name" class="sr-only">Navn</label>
+                    <input id="cf-name" type="text" name="name" placeholder="Navn" autocomplete="name" required aria-required="true" aria-describedby="cf-name-err" class="input-glass" />
+                    <p id="cf-name-err" class="field-error" hidden></p>
+                  </div>
+                  <div>
+                    <label for="cf-email" class="sr-only">E-post</label>
+                    <input id="cf-email" type="email" name="email" placeholder="E-post" autocomplete="email" inputmode="email" required aria-required="true" aria-describedby="cf-email-err" class="input-glass" />
+                    <p id="cf-email-err" class="field-error" hidden></p>
+                  </div>
+                </div>
+                <div>
+                  <label for="cf-message" class="sr-only">Melding</label>
+                  <textarea id="cf-message" name="message" rows="5" placeholder="Fortell kort om hva du ønsker" required aria-required="true" aria-describedby="cf-message-err" class="input-glass min-h-[9rem] resize-y"></textarea>
+                  <p id="cf-message-err" class="field-error" hidden></p>
+                </div>
+
+                <!-- Honeypot: hidden from humans, bots fill it and get silently rejected -->
+                <div class="hp-field" aria-hidden="true">
+                  <label for="cf-company">La dette feltet stå tomt</label>
+                  <input id="cf-company" type="text" name="company" tabindex="-1" autocomplete="off" />
+                </div>
+
+                <div class="mt-1 flex flex-col-reverse gap-4 sm:flex-row sm:items-center sm:justify-between">
+                  <p id="contactStatus" class="text-sm" role="status" aria-live="polite"></p>
+                  <button type="submit" class="btn-dark w-full px-7 py-3.5 sm:w-auto">Send forespørsel</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="border-t border-white/[0.06]">
+      <div class="px-5 py-10 sm:px-8 sm:py-12 lg:px-12">
+        <div class="flex items-center gap-4">
+          <a href="#top" class="inline-flex shrink-0 items-center">
+            <img src="/images/logo.svg" alt="Korvi" class="h-3 w-auto" />
+          </a>
+          <p class="text-xs text-white/35">© <span id="year"></span> Korvi. Alle rettigheter reservert.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
