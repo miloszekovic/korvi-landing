@@ -150,12 +150,17 @@ if (LIVERELOAD) {
   console.log("Livereload: watching", publicDir);
 }
 
-app.listen(PORT, () => {
-  console.log(`Korvi server: http://localhost:${PORT}`);
-  if (!process.env.RESEND_API_KEY) {
-    console.log("Tips: sett RESEND_API_KEY + CONTACT_EMAIL i .env for å aktivere e-post.");
-  }
-});
+// In local dev, start the server directly; Vercel imports the module instead.
+if (require.main === module) {
+  app.listen(PORT, () => {
+    console.log(`Korvi server: http://localhost:${PORT}`);
+    if (!process.env.RESEND_API_KEY) {
+      console.log("Tips: sett RESEND_API_KEY + CONTACT_EMAIL i .env for å aktivere e-post.");
+    }
+  });
+}
+
+module.exports = app;
 
 function escapeHtml(str) {
   return String(str)
